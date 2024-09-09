@@ -1,0 +1,86 @@
+1,1,1 ACTIVO,1,N,NULL
+2,1.1,1.1 Disponibilidades,2,N,1
+3,1.1.2001,Caja Chica,3,AC,2
+4,1.1.2002,Caja,3,AC,2
+5,1.1.2003,Banco Itau cta cte.,3,AC,2
+6,1.1.2004,Financiera Solar Caja de ahorro,3,AC,2
+7,1.2,1.2 Creditos,2,N,1
+8,1.2.2001,Bancard - Ventas tarjetas,3,AC,7
+9,1.2.2002,Cheques por confirmar,3,AC,7
+10,1.2.2003,Cheques rechazados,3,AC,7
+11,1.2.2004,Adelanto al personal,3,AC,7
+12,1.2.2005,Prestamos otorgados,3,AC,7
+13,1.2.2004,Iva Credito Fiscal,3,AC,7
+14,1.3,1.3 Bienes de Cambio,2,N,1
+15,1.3.2001,Mercaderias,3,AC,14
+16,1.3.2002,Materiales e insumos,3,AC,14
+17,1.4,1.4 Bienes de Uso,2,N,1
+18,1.4.2001,Muebles y equipos,3,AC,17
+19,1.4.2002,Equipos de informatica,3,AC,17
+20,1.4.2003,Instalaciones,3,AC,17
+21,1.4.2004,Depreciación acumulada,3,AC,17
+22,2,2 PASIVO,1,N,NULL
+23,2.1,2.1 Deudas Corrientes,2,N,22
+24,2.1.2001,Prestamos Banco Itau,3,PA,23
+25,2.1.2002,IVA Debito Fiscal,3,PA,23
+26,2.1.2003,Impuestos a pagar,3,PA,23
+27,2.1.2004,Proveedores,3,PA,23
+28,2.1.2005,Acreedores varios,3,PA,23
+29,2.1.2006,Alquileres a pagar,3,PA,23
+30,2.2,2.2 Deuda no Corrientes,2,N,22
+31,2.2.2001,Prestamos - Itau,3,PA,30
+32,2.2.2002,Acreedores varios,3,PA,30
+33,3,3 PATRIMONIO NETO,1,N,NULL
+34,3.1,3.1 CAPITAL,2,N,33
+35,3.1.2001,Aporte socio - Thalia,3,PN,34
+36,3.1.2002,Aporte socio - Norman,3,PN,34
+37,3.1.2003,Aporte socio - Maryam,3,PN,34
+38,3.1.2004,Aporte socio - Gabriel,3,PN,34
+39,3.2,3.2 Reservas,2,N,33
+40,3.2.2001,Reserva del ejercicio,3,PN,39
+41,3.2.2002,Reserva acumulada,3,PN,39
+42,3.3,3.3 Resultados,2,N,33
+43,3.3.2001,Resultado acumulados,3,PN,42
+44,3.3.2002,Resultado del ejercicio,3,PN,42
+45,4,4 INGRESOS,1,N,NULL
+46,4.1,4.1 Ingresos Operativos,2,N,45
+47,4.1.2001,Venta de Servicios,3,IN,46
+48,4.1.2002,Venta de Productos,3,IN,46
+49,4.2,4.2 Ingresos extraordinarios,2,N,45
+50,4.2.2001,Intereses cobrados,3,IN,49
+51,4.2.2002,Descuentos obtenidos,3,IN,49
+52,5,5 EGRESOS,1,N,45
+53,5.1,5.1 Costos operativos,2,N,52
+54,5.1.2001,Costos de Servicio,3,EG,53
+55,5.1.2002,Costo de productos,3,EG,53
+56,5.1.2003,Bancard Comisones,3,EG,53
+57,5.1.2004,Comisiones Pagadas a Profesionales,3,EG,53
+58,5.1.2005,Costos de Marca Studio Única,3,EG,53
+59,5.1.2006,Promocion y Progaganda,3,EG,53
+60,5.1.2007,Descuentos concedidos,3,EG,53
+61,5.2,5.2 Gastos Administrativos,2,N,52
+62,5.2.2001,Alquileres pagados,3,EG,61
+63,5.2.2002,Gastos de limpieza,3,EG,61
+64,5.2.2003,Gastos varios,3,EG,61
+65,5.2.2004,Horas extras,3,EG,61
+66,5.2.2005,Patentes e impuestos,3,EG,61
+67,5.2.2006,Refacciones del Local,3,EG,61
+68,5.2.2007,Servicios Pagados,3,EG,61
+69,5.2.2008,utiles e impresos,3,EG,61
+70,5.2.2009,Capacitación,3,EG,61
+71,5.2.2010,Gastos de comunicación,3,EG,61
+72,5.2.2011,Beneficios al personal,3,EG,61
+73,5.2.2012,Gastos dias Festivos,3,EG,61
+74,5.2.2013,Sueldos Pagados,3,EG,61
+75,5.2.2014,Aguinaldo Pagados,3,EG,61
+76,5.2.2015,Gastos de movilidad,3,EG,61
+77,5.2.2016,Asignación a socios,3,EG,61
+78,5.2.2017,Costo de sistema Informatico,3,EG,61
+79,5.2.2018,Reparacion y Mantenimiento de Equipos,3,EG,61
+80,5.2.2018,LUZ,3,EG,61
+81,5.3,5.3 Otros Gastos no operativos,2,N,52
+82,5.3.2001,Donaciones,3,EG,81
+83,5.3.2002,Interes Financieros Pagados,3,EG,81
+84,5.3.2003,Gastos de Caja Chica,3,EG,81
+85,5.3.2004,Perdidas extraordinarias,3,EG,81
+86,5.3.2005,Depreciación del ejercicio,3,EG,81
