@@ -74,7 +74,6 @@ class ApiController extends Controller
             order by u.name
             ".$parms."
             ";
-            Log::info($query);
             $data = $this->consulta($query);
             return response()->json($data);
     }
