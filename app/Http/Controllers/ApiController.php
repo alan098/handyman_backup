@@ -55,19 +55,9 @@ class ApiController extends Controller
     }
     public function getWorkers(Request $r){
         Log::info(__FUNCTION__.__FILE__); 
-            $parametros=''; $parms='';
-            $page=1;
-            $perPage = 10; // Número de resultados por página
-            $offset = ($page - 1) * $perPage;
-            if(isset($r->id)){
-                $parametros=' where u.id ='.$r->id;
-            }
-            if(isset($r->page)){
-                $page=$r->page;
-                $offset = ($page - 1) * $perPage;
-                $parms.=' LIMIT '.$perPage.' OFFSET '.$offset;
-            }else{
-                $parms.=' LIMIT '.$perPage.' OFFSET '.$offset;
+            $parametros=$parms='';
+            if(isset($r->limit)){
+                $parms.=' LIMIT '.$r->limit.' OFFSET '.$r->offset;
             }
             $query = " 
             select 
