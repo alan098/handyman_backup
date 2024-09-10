@@ -54,7 +54,7 @@ class ApiController extends Controller
      return $rta;
     }
     public function getWorkers(Request $r){
-        Log::info(__FUNCTION__.__FILE__); 
+        Log::info(__FUNCTION__.__FILE__); Log::info($r); 
             $parametros=$parms='';
             if(isset($r->limit)){
                 $parms.=' LIMIT '.$r->limit.' OFFSET '.$r->offset;
@@ -74,6 +74,7 @@ class ApiController extends Controller
             order by u.name
             ".$parms."
             ";
+            Log::info($query);
             $data = $this->consulta($query);
             return response()->json($data);
     }
